@@ -1,3 +1,8 @@
 bin/
 desktop.ini
 AndroidManifest.out.xml
+gen/
+default.properties
+.settings/
+.classpath
+.project
