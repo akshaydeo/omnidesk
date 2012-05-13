@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:id="@+id/widget32"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="vertical" android:background="@drawable/bg3" xmlns:android="http://schemas.android.com/apk/res/android">
+	<TableRow android:id="@+id/tbrow" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:orientation="horizontal">
+		<ImageView android:id="@+id/savedConnectionImageView" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:src="@drawable/smallbox">
+		</ImageView>
+		<TextView android:id="@+id/savedConnectionTextView" android:layout_width="fill_parent" android:layout_marginLeft="10sp"
+			android:layout_height="fill_parent" android:text="@string/menu2"
+			android:textColor="@color/black_text_color" android:gravity="center_vertical"
+			android:textStyle="bold" android:textSize="20sp">
+		</TextView>
+	</TableRow>
+	<ListView android:id="@+id/savedConnectionListView" android:layout_width="wrap_content"
+		android:layout_height="fill_parent">
+	</ListView>
+
+</TableLayout>

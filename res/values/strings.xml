@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">OmniDesk1: Your Desktop Everywhere</string>
+	<string-array name="colorBits">
+		<item>8 bit</item>
+		<item>16 bit</item>
+		<item>24 bit</item>
+		<item>32 bit</item>
+	</string-array>
+	<string-array name="resolutionArray">
+		<item></item><item>480x320</item>
+		<item>640x480</item>
+		<item>800x600</item>
+		<item>1024x748</item>
+		<item>1280x600</item>
+
+
+	
+</string-array>
+	<color name="white_bg">#FFF</color>
+<string name="menu1">Connect to remote PC</string>
+<string name="menu2">Saved connections</string>
+<string name="menu3">Settings</string>
+<string name="menu4">Help</string>
+<string name="menu5">About</string>
+<string name="login_screen_field1">IP address</string>
+
+
+
+
+<string name="settings_menu_1">Resolution</string>
+<string name="settings_menu_2">Color Depth</string>
+<color name="black_text_color">#000</color>
+<string name="about_text">      \tOMNiDesk is a RDP client application for ANDROID OS. It is completely built and tested on ANDROID Firmware version 1.6 Kernel Version 2.6.29-00479-g3c7df37. \n\n      \tThis is a BE project and this application is developed by- \nAkshay Deo \nMayuresh Soni \nNeeraj Joshi \nPrasad Korhale.\n\n      \tWe are thankful to Prof. Rahul Dagade (PICT, Pune, India), Mr. Kirk Beaty (USA), Mr. Sanny Chawla (Azingo, Pune, India), Mr. Rohit Ghatol (Synerzip, Pune, India), Mr. Manish Deshpande (LindLe, Germany) for their kind support during the development of this application.\n\n      \tWe are also grateful to the developers of the ProperJava, RDesktop. During the development we have used these open source codes.\n\n      \tThis application is built by strictly following RDP documentation released by Microsoft(R) in Aug 2009. This application is tested for all the Microsoft(R) WINDOWS(R) OS supporting RDP (Windows(R) 2000 and above).\n\n      \tCopyright 2010 \nOMNi-Desk : Your Desktop Everywhere...</string>
+<string name="settings_menu_3">Sound redirection</string>
+<string name="settings_menu_4">Enable compression</string>
+<string name="settings_menu_5">Disable cursor shadow</string>
+<string name="settings_menu_6">Disable wallpaper</string>
+<string name="settings_menu_7">Disable theme</string>
+<string name="settings_menu_8">Disable cursor animation</string>
+<string name="saved_connection_dialog_name">Name of the connection</string>
+<string name="help_text">Connect to Remote PC\n
+\t	This leads you to a screen where you enter the IP address of the remote PC. Pressing the “Connect” button will connect the remote PC and begin your RDP (Remote Desktop Protocol) session.
+\n
+\n
+Saved Connection\n
+\t	Helps look up saved connection settings.\n
+\n
+\n
+Settings\n
+\n
+Resolution:\n 
+\t	Various resolutions of the desktop bitmap images are supported.\n 
+480x320 is the lowest resolution which perfectly occupies the Android screen.\n
+\n
+Sound Redirection: \n
+\t	Enables sound redirection from the remote PC to Android. If the remote computer is running a media file, sounds would be redirected and played on the Android phone.\n
+	Turning this feature ON would affect user – desktop experience.\n
+\n
+Disable Theme:\n
+\t	Disables Windows themes. Helps reduce network traffic.
+\n
+Disable Wallpaper:\n
+\t	Disables wallpaper. This produces a blank screen instead. Helps reduce network traffic. </string>
+</resources>

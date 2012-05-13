@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout android:id="@+id/widget0"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/bg4">
+ <omniDesk.coverFlow.CoverFlow 
+		android:id="@+id/coverflow"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:layout_y="350px" />
+
+		<ViewFlipper android:id="@+id/flipper"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:layout_y="440px" android:layout_marginBottom="20dip">
+		<TextView android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:gravity="center_horizontal"
+			android:textSize="26sp" android:text="@string/menu1" android:textColor="@color/black_text_color"/>
+		<TextView android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:gravity="center_horizontal"
+			android:textSize="26sp" android:text="@string/menu2" android:textColor="@color/black_text_color"/>
+		<TextView android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:gravity="center_horizontal"
+			android:textSize="26sp" android:text="@string/menu3" android:textColor="@color/black_text_color"/>
+			<TextView android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:gravity="center_horizontal"
+			android:textSize="26sp" android:text="@string/menu4" android:textColor="@color/black_text_color"/>
+		<TextView android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:gravity="center_horizontal"
+			android:textSize="26sp" android:text="@string/menu5" android:textColor="@color/black_text_color"/>
+	</ViewFlipper>
+
+
+</AbsoluteLayout>

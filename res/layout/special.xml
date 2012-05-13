@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<TableLayout android:id="@+id/TableLayout01"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<ScrollView android:id="@+id/ScrollView01"
+		android:layout_width="wrap_content" android:layout_height="wrap_content">
+		<TableLayout android:id="@+id/TableLayout02"
+			android:layout_width="wrap_content" android:layout_height="wrap_content">
+			<TableRow android:id="@+id/TableRow05" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:weightSum="1">
+				<TextView android:layout_height="wrap_content" android:id="@+id/Frequent_use_keys"
+					android:layout_weight="1" android:layout_width="wrap_content"
+					android:layout_marginTop="15sp" android:text="Frequent Combinations"></TextView>
+			</TableRow>
+			<LinearLayout android:id="@+id/LinearLayout01"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:weightSum="4" android:layout_marginTop="15sp">
+				<Button android:text="Ctl + C" android:id="@+id/ctlc"
+					android:layout_weight="1" android:layout_width="fill_parent"
+					android:layout_height="fill_parent"></Button>
+				<Button android:text="Ctl + X" android:layout_weight="1"
+					android:layout_width="fill_parent" android:layout_height="fill_parent"
+					android:id="@+id/ctlx"></Button>
+				<Button android:layout_weight="1" android:layout_width="fill_parent"
+					android:layout_height="fill_parent" android:id="@+id/ctlv"
+					android:text="Ctl  + V"></Button>
+				<Button android:id="@+id/ctls" android:text="Ctl  + S"
+					android:layout_weight="1" android:layout_width="fill_parent"
+					android:layout_height="fill_parent"></Button>
+			</LinearLayout>
+			<LinearLayout android:id="@+id/LinearLayout02"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:layout_marginTop="5sp">
+				<Button android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:id="@+id/ctlz"
+					android:text="Ctl + Z" android:layout_weight="1"></Button>
+				<Button android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:id="@+id/altf4"
+					android:text="Alt + F4" android:layout_weight="1"></Button>
+				<Button android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:text="Shift + Del"
+					android:id="@+id/shift_del" android:layout_weight="1"></Button>
+				<Button android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:id="@+id/alt_ctl_del"
+					android:text="Alt+Ctl+Del" android:layout_weight="1"></Button>
+			</LinearLayout>
+			<LinearLayout android:id="@+id/LinearLayout03"
+				android:layout_height="wrap_content" android:weightSum="4"
+				android:layout_width="fill_parent" android:layout_marginTop="15sp">
+				<CheckBox android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:id="@+id/Shilft"
+					android:text="Shift" android:layout_weight="1"></CheckBox>
+				<CheckBox android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:id="@+id/Alt"
+					android:text="Alt" android:layout_weight="1"></CheckBox>
+				<CheckBox android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:id="@+id/Ctl"
+					android:text="Ctl" android:layout_weight="1"></CheckBox>
+				<CheckBox android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:id="@+id/windows"
+					android:text="Windows" android:layout_weight="1"></CheckBox>
+			</LinearLayout>
+			<LinearLayout android:id="@+id/LinearLayout04"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:layout_marginTop="10sp" android:weightSum="3">
+				<TextView android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:id="@+id/char_text"
+					android:text="char" android:layout_weight="1" android:gravity="center"></TextView>
+				<TextView android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:id="@+id/special_text"
+					android:text="Special" android:layout_weight="1" android:gravity="center"></TextView>
+				<TextView android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:id="@+id/function"
+					android:text="Function" android:layout_weight="1" android:gravity="center"></TextView>
+			</LinearLayout>
+			<LinearLayout android:id="@+id/LinearLayout05"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:weightSum="3">
+				<Spinner android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:id="@+id/characters"
+					android:layout_weight="1"></Spinner>
+				<Spinner android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:id="@+id/Special"
+					android:layout_weight="1"></Spinner>
+				<Spinner android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:id="@+id/Function"
+					android:layout_weight="1"></Spinner>
+			</LinearLayout>
+			<LinearLayout android:id="@+id/LinearLayout06"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:weightSum="3" android:layout_marginTop="10sp">
+				<TextView android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:id="@+id/combination_text"
+					android:layout_weight="1" android:text="Combination : "></TextView>
+				<TextView android:id="@+id/combination"
+					android:layout_weight="1" android:layout_width="wrap_content"
+					android:layout_height="wrap_content"></TextView>
+				<Button android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:text="send"
+					android:id="@+id/send" android:layout_weight="1"></Button>
+			</LinearLayout>
+		</TableLayout>
+	</ScrollView>
+
+
+
+
+
+
+
+</TableLayout>

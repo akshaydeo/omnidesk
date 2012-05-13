@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/widget28"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android">
+	<TextView android:text="@string/saved_connection_dialog_name"
+		android:id="@+id/TextView01" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:gravity="center_horizontal" android:textSize="18sp"></TextView>
+	<EditText android:id="@+id/widget29" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="" android:textSize="18sp">
+	</EditText>
+
+	<TableRow android:id="@+id/TableRow01" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" >
+		<Button android:text="Save" android:id="@+id/Button01" 
+			android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawableTop="@drawable/smallbox" android:gravity="center_horizontal"></Button>
+		<Button android:text="Cancel" android:id="@+id/Button02"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"  android:drawableTop="@drawable/promo_red"></Button>
+	</TableRow>
+</LinearLayout>

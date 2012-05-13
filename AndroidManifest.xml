@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	android:versionCode="1" android:versionName="1.0" package="omniDesk.gui">
+	<application android:icon="@drawable/icon" android:label="@string/app_name"
+		android:allowBackup="false">
+		<activity android:name="omniDesk.gui.OmniDeskMain" android:label="@string/app_name"
+			android:screenOrientation="landscape" android:configChanges="orientation|keyboardHidden">
+		</activity>
+		<activity android:name="omniDesk.gui.Login" android:label="@string/app_name"
+			android:configChanges="orientation" android:screenOrientation="unspecified">
+		</activity>
+		<activity android:name="omniDesk.gui.Settings"></activity>
+		<activity android:name="omniDesk.gui.MainScreen" android:screenOrientation="portrait">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+	<activity android:name="omniDesk.gui.SavedConnections"></activity>
+</application>
+	<uses-sdk android:minSdkVersion="4" />
+	<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
+	<supports-screens android:normalScreens="true"
+		android:smallScreens="false" android:largeScreens="true"
+		android:resizeable="true"></supports-screens>
+	<uses-configuration android:reqKeyboardType="qwerty"
+		android:reqTouchScreen="finger"></uses-configuration>
+
+
+
+<uses-permission android:name="android.permission.ACCESS_WIFI_STATE"></uses-permission>
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+
+</manifest> 
